@@ -1,3 +1,4 @@
+let password = Number(prompt("Write down your date of birth"));
 function generatePassword() {
     var chars = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
     var passwordLength = 5;
@@ -7,6 +8,7 @@ function generatePassword() {
         password += chars.substring(randomNumber, randomNumber +1);
     }
     document.getElementById("password").value = password;
+    console.log(password);
 }
 function copyPassword() {
   var copyText = document.getElementById("password");

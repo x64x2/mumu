@@ -1,5 +1,7 @@
 # pwdgen
 
-a gui password generator on web 
+a barebones password generator
 
-> Deploy to web host or local and run 
+- you must have an assembler installed on your machine before you try this
+
+> assemble then run

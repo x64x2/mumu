@@ -50,14 +50,11 @@ _MainProc PROC
 
    randomMinMax MACRO min, max      ;Generates a random number from min (inclusive) to max (inclusive) and stores it in eax
       random                        ;Get Random number
-      mov     ebx,  max
-      mov     edx,  min
-      sub     ebx,  edx
-      inc     ebx
-      mov     edx,  0
-      idiv    ebx
-      mov     eax,  edx
-      add     eax,  min
+      mov eax, 4
+      mov ebx, 1
+      mov ecx, msg
+      mov edx, len_msg
+      int 0x80
    ENDM
 
    randomASCIIRestr MACRO restriction
@@ -114,8 +111,11 @@ _MainProc PROC
    ; //////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN//////MAIN/////////////
    ; /////USER INPUT/VALIDATION/////USER INPUT/VALIDATION/////USER INPUT/VALIDATION/////USER INPUT/VALIDATION/////USER INPUT/VALIDATION
 
-      mov      eax, 0
-      mov      ecx, 10     ; max number of elements
+      mov eax, 3
+      mov ebx, 0
+      mov ecx, password
+      mov edx, 32
+      int 0x80
 
       output   promptDir, varDir
 

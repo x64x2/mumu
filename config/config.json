@@ -1,0 +1,11 @@
+{
+	"browserPort": 8000,
+	"peerbitPort": 8500,
+	"browserHost": "127.0.0.1",
+	"replicationFactor": 1,
+	"threadsPerPage": 5,
+	"previewReplies": 3,
+	"defaultName": "Anonymous",
+	"openHomeOnStartup": true,
+	"defaultTheme": "chalk"
+}

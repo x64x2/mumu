@@ -1,4 +1,4 @@
-## intro
+## Intro
 Server node and rendering engine for distributed imageboard browsing.
 
 ## Prerequisites

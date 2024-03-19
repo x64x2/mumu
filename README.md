@@ -1,4 +1,4 @@
-# i6p
+
 Server node and rendering engine for distributed imageboard browsing.
 
 ## Prerequisites

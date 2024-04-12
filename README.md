@@ -1,6 +1,6 @@
 ## Intro
 
-A gambling site with a meme coin :)
+A gambling site with a meme coin and chat room:)
 
 ## Contributing
 
@@ -15,7 +15,7 @@ There's a lot of stuff wrong with this site.
 ### Setup
 
 1. Clone to /var/www/
-2. Setup mysql database (mariadb is best) with a database named neow and two tables, users, and board.
+2. Setup mysql database (mariadb is best) with a database named mumu and two tables, users, and board.
 3. Start mysql
 4. Configure config.php with sql database settings
 5. Add entry to apache config so the website runs

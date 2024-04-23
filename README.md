@@ -5,7 +5,7 @@ A gambling site with a meme coin and chat room:)
 ## Contributing
 
 There's a lot of stuff wrong with this site.
-
+Bonus point if you can fix it 
 
 ### Prerequitites
 
